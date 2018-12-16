@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+
+thead{
+	background: #FF7493;
+}
+
+th, td {
+	border-bottom: 1px solid #000000;
+	padding: 10px;
+}
+
+.formtable {
+    width: 90%;
+    border-top: 1px solid #bc8ccc;
+ 	margin: 50px;
+	border-collapse: collapse;
+	text-align: center;
+	background-color: #FFDEE9;
+}
+
+.first_tr {
+	background-color: #FFDEE9;
+	color: #ffffff;
+}
+
+.table_hover:hover {
+	background-color: #ffb9cf;
+}
+
+.label {
+	text-align: right;
+	vertical-align: top;
+}
+
+.control {
+	margin-left: 10px;
+}
+
+.error {
+	font-size: small;
+	color: red;
+	margin-left: 10px;
+}
